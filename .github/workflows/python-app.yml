@@ -37,5 +37,4 @@ jobs:
         - name: Test with unittest
         run: python3 -m unittest test_security.py
     - name: Test with pytest
-      run: |
-        pytest
+      run: python3 -m unittest test_security.py
